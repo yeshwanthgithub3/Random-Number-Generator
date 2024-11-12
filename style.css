@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.random{
+    height: 300px;
+    width: 330px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px gray;
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+}
+
+#Min{
+    height: 20px;
+    width:50px;
+    border: 2px solid black;
+    border-radius: 2px;
+    color: black;
+    font-weight: bold;
+}
+
+#Max{
+    height: 20px;
+    width:50px;
+    border: 2px solid black;
+    border-radius: 2px;
+    color: black;
+    font-weight: bold;
+}
+    
+
+button{
+    margin-top: 20px;
+    font-weight:bold;
+    padding: 4px;
+    padding-left: 2px;
+    padding-right: 4px;;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(101, 220, 101);
+}
+
+.random:hover{
+    box-shadow: 5px 10px gray;
+}
+
+button:hover{
+    
+    box-shadow: 2px 2px black;
+}
+
